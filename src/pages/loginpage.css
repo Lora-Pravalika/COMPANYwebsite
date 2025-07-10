@@ -30,12 +30,13 @@ h2 {
   border: 1px solid #ccc;
   border-radius: 6px;
   font-size: 0.95rem;
-  color: #007bff;
+  color:black;
+
 }
 
 .login-btn {
   width: 20%;
- 
+ box-shadow:1px 1px 1px  blue;
   background: #007bff;
   color: white;
   font-size: 0.9rem;
