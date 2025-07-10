@@ -1,0 +1,102 @@
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* background: linear-gradient(135deg, #e0eafc, #cfdef3); */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+
+.signup-box {
+  background: white;
+  padding: 30px 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 200%;
+  max-width: 360px;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow:2px 2px 2px 2px black;
+
+}
+
+
+.signup-box label {
+  font-size: 1rem;
+  font-weight: 800;
+  color: #333;
+  margin-bottom: 10px;
+  display: block;
+}
+
+
+.company-input {
+  position: relative;
+  margin: 16px 0 20px;
+}
+
+.company-input input {
+  width: 85%;
+  padding: 10px 10px 10px 36px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  color: #333;
+  transition: border 0.2s ease;
+}
+
+.company-input input::placeholder {
+  color: #aaa;
+  font-size: 0.95rem;
+}
+
+.company-input input:focus {
+  outline: 100px;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0,123,255,0.2);
+}
+
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+
+.signup-box button {
+  padding: 8px 18px;
+  background-color: #007bff;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.signup-box button:hover {
+  background-color: #0056b3;
+}
+
+
+.company-verified {
+  color: #28a745;
+  margin-top: 12px;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.company-not-verified {
+  color: #dc3545;
+  margin-top: 12px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-shadow: #333;
+  text-shadow: #dc3545;
+}
